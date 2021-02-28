@@ -16,5 +16,15 @@ int main() {
         v.push_back(tmp);
     }
 
-    cout<<next_permutation(v.begin(), v.end())<<'\n';
+    int res = next_permutation(v.begin(), v.end());
+
+    if(res) {
+        for(int i=0;i<num;i++) {
+            cout<<v[i]<<' ';
+        }        
+    } else {
+        cout<<-1<<'\n';
+    }
+
+    // cout<<next_permutation(v.begin(), v.end())<<'\n';
 }

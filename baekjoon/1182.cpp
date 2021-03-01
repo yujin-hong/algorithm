@@ -7,7 +7,7 @@ vector<int> v;
 int ans = 0;
 int num, des;
 
-void go(int sum, int ind, int use_count);
+void go(int sum, int ind, int check_flag);
 
 int main() {
     freopen("input.txt","r",stdin);

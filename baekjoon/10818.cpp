@@ -12,7 +12,6 @@ int main() {
     for(int i=0;i<num;i++) {
         int tmp;
         cin>>tmp;
-        cout<<tmp<<'\n';
         if(tmp>max_num) max_num = tmp;
         if(tmp<min_num) min_num = tmp; 
     }

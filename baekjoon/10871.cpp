@@ -11,5 +11,5 @@ int main() {
         cin>>tmp;
         if(tmp<num) cout<<tmp<<' ';
     }
-
+    cout<<'\n';
 }

@@ -18,7 +18,6 @@ int main() {
             ans.push_back('+');
             st++;
         }
-        // cout<<s.top()<<' '<<tmp<<'\n';
         if(s.top() == tmp) {
             s.pop();
             ans.push_back('-');

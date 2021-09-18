@@ -18,6 +18,4 @@ int main() {
         dp[i] = min_num;
     }
     cout<<dp[num]<<'\n';
-
-
 }

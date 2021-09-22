@@ -3,28 +3,8 @@
 
 using namespace std;
 
-// template <typename Out>
-// void split(const std::string &s, char delim, Out result) {
-//     std::istringstream iss(s);
-//     std::string item;
-//     while (std::getline(iss, item, delim)) {
-//         *result++ = item;
-//     }
-// }
-
-// std::vector<std::string> split(const std::string &s, char delim) {
-//     std::vector<std::string> elems;
-//     split(s, delim, std::back_inserter(elems));
-//     return elems;
-// }
 
 void parse_string_put_queue(int num_count, string str, deque<int> &q) {
-    // string num_str = str.substr(1, str.size()-2);
-    // vector<string> str_vec = split(num_str, ',');
-    // for(int i=0;i<str_vec.size();i++) {
-    //     // cout<<str_vec[i]<<'\n';
-    //     q.push_back(stoi(str_vec[i]));
-    // }
     string num_str = str.substr(1, str.size()-2);
     char num_str_arr[num_str.length()+1];
     strcpy(num_str_arr, num_str.c_str());
